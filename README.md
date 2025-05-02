@@ -1,35 +1,6 @@
-# vue3-big-event-admin
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+# vue3大事件项目
+##1.使用了pinia作为仓库进行数据管理
+##2.使用了elementplus组件并使用插件进行自动按需导入
+##3.对不同业务的api进行分模块管理
+##4.创建axios实例，并且进行自定义
+##5.配置了路由，添加了路由导航守卫
